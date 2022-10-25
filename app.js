@@ -192,13 +192,26 @@
 
 
 
-for (var i = 1; i <= 200; i = i + 10) {
+// for (var i = 1; i <= 200; i = i + 10) {
     // document.write (i + "<br>")
-    for (var j = i; j < i + 10; j++) {
-        document.write(j + " ")
+    // for (var j = i; j < i + 10; j++) {
+        // document.write(j + " ")
 
-    }
-    document.write("<br>")
+    // }
+    // document.write("<br>")
     // console.log(i)
+// }
+
+
+
+// function first(){
+// console.log("Hello World Testing")
+// }
+// first()
+
+
+function add(a,b){
+    console.log(a-b)
 }
+add(1,2);
 
